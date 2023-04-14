@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+
+<version>
+    <number>5.6.008</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.6/OAK5-56008.msi</securelocation>
+    <changes>• Fixed: failure to load a native DLL on older systems
+• Use of https protocol for news and updates
+• Verifies digital signature of downloaded update file
+• Added ability to disable web updates using an installer command line option
+</changes>
+   <released>2023-03-24</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.6.007</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.6/OAK5-56007.msi</securelocation>
+    <changes>• Fixed error with Compare when aligning columns
+</changes>
+   <released>2023-02-17</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.6.006</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.6/OAK5-56006.msi</securelocation>
+    <changes>• Added new Review feature
+• Added new 'Insights' sheet to OAK map
+• Added new 'Trace dependents' feature
+• Added pruning for new Excel 365 functions
+• Summary and Compare report books also include RC addresses
+• OAK Reconstruct &amp; Formula Explorer support 3D formulas
+• Formula Explorer and pruner support @ symbols
+• Redesigned Pruner UI
+• Redesigned convert references UI
+• Formula explorer now has guidelines and the triangle colors can be customized
+• Login fail error message is now copyable
+• Fixed 'stop running this script' issue with custom task panes
+• Fixed some language issues with the Formula Explorer
+• Fixed issue where unchecking all sheets on a custom task pane would automatically reselect them
+• Removed Formula Walker tool
+</changes>
+   <released>2023-02-03</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.5.006</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.5/OAK5-55006.msi</securelocation>
+    <changes>•Improvements on the Formula Explorer: formula wrapping, window automatically collapsing, performance improvements.
+•New feature: Formula Explorer offers a 'drill' mode which breaks down Excel functions by arguments.
+•Improvement: the Precedents Navigation tools now handle protected workbook structure (with hidden sheets).
+•Improvement: the OAK parser recognizes 35 new Excel 365 functions.
+•Improvement: Formula Explorer, Precedents Navigation and Fan Out Precedents are now fully compatible with 3D formulas.
+•Fixed: bug where OAK would randomly log out the user.
+•Fixed: bug where the Compare tool would break when setting range colour fails.
+•Fixed: bug where toggling visibility of addresses and Labels would crash the Formula Explorer.
+•Fixed: bug where some windows would not scale correctly.
+
+</changes>
+   <released>2022-08-19</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.5.005</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.5/OAK5-55005.msi</securelocation>
+    <changes>•Improvements on the Formula Explorer: formula wrapping, window automatically collapsing, performance improvements.
+•Added Ctrl + Alt + F5 to list of Excel shortcuts.
+•Fixed: bug where 'About OAK' crashes Excel if the user does not have an active license.
+•Fixed: trial window no longer showing if valid login credentials are detected.
+</changes>
+   <released>2022-07-22</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.5.003</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.5/OAK5-55003.msi</securelocation>
+    <changes>•Fixed: Compare automatic sheets matching now disabled.
+•Fixed: 'Forgot password' link is now invoking correct interface.</changes>
+   <released>2022-07-04</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.5.002</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.5/OAK5-55002.msi</securelocation>
+    <changes>•New feature: The Formula Explorer is a UI-based tool designed to make navigation and formula auditing easy
+•New feature: Precedents Navigation - an alternative method to trace precedents of a formula without the need of a UI
+•New trial mechanism that does not require any login credentials
+•Performance improvements and bug fixes</changes>
+   <released>2022-06-25</released>
+    <category>0</category>
+</version>
+ 
+<version>
+    <number>5.4.005</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.4/OAK5-54005.msi</securelocation>
+    <changes>•Fixed: Compare is now able to  to compare two sheets on the same workbook
+•Fixed: Compare is now able to compare workbooks with different number of worksheets
+•Performance improvements and bug fixes</changes>
+   <released>2022-05-06</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.4.004</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.4/OAK5-54004.msi</securelocation>
+    <changes>•New set of Utility tools (Colors, Casing, Switch Signs, Convert References)
+•New module for keyboard shortcuts
+•Improvements on the dynamic arrays compatibility
+•F1 disable key functionality
+•Combined per-user / machine-level installer
+• Performance improvements and bug fixes</changes>
+   <released>2022-04-07</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.3.005</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.3/5.3.005/OAK5-53005-user.msi</securelocation>
+    <changes>• Optimize / Reconstruct / Prune now modified to handle dynamic arrays
+    • Formula Walker now recognizes parent and spilled formulas    
+    • Parser is now capable of handling the implicit intersection operator @ and # suffix
+    • 'Names' tools now compatible with dynamic arrays
+    • Removal of aggressive optimization on the Optimize tool
+    • Risk analysis improvements for dealing with the @ and # operators
+    • FIPS compliant encryption compatibility
+    • Now uses .NET Framework 4.8
+    • Performance improvements and bug fixes</changes>
+   <released>2021-12-17</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.2.008</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.2/5.2.008/OAK5-52008.msi</securelocation>
+    <changes>• Replaced shortcuts macro with use of keyboard events - speeds up Excel loading time
+	• Fixed redefine names UI
+	• Added link addresses option to IOAKAPI.Summarize
+	• Performance improvements and bug fixes</changes>
+   <released>2021-10-08</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.2.006</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.2/5.2.006/OAK5-52006.msi</securelocation>
+    <changes>• Dynamic array formulas now recognized by Map, Summarize and Compare
+    	• Improvements on the licensing and authentication mechanism
+    	• Performance improvements and bug fixes</changes>
+   <released>2021-06-23</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.0.002</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.0/5.0.002/OAK5-50002.msi</securelocation>
+    <changes>• Performance improvements on the Formula Walker and new Value column
+    	• Improvements on the authentication mechanism
+    	• Updates notification simplified </changes>
+   <released>2020-12-02</released>
+    <category>0</category>
+</version>
+
+<version>
+    <number>5.00.001</number>
+    <securelocation>https://www.assets.operisanalysiskit.com/updates/5.0/5.00.001/OAK5-500001.msi</securelocation>
+    <changes>• minor fixes</changes>
+   <released>2020-07-02</released>
+    <category>0</category>
+</version>
+
+</versions>
